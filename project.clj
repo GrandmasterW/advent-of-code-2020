@@ -7,7 +7,7 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/math.combinatorics "0.1.6"]
                  ]
-  :main ^:skip-aot aoc2020.day1
+  :main ^:skip-aot aoc2020.day2
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
